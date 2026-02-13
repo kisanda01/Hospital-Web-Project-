@@ -1,0 +1,64 @@
+ /* Global Styles */
+ body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #007bff;
+}
+.navbar-brand, .nav-link {
+  color: white !important;
+}
+.navbar-brand:hover, .nav-link:hover {
+  color: #f0f8ff !important;
+}
+
+/* Hero Section */
+.hero-banner {
+  background-image: url('images/pexels-pixabay-208512.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Service Boxes */
+.service-box {
+  transition: transform 0.3s;
+}
+.service-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* About Section */
+#about img {
+  border-radius: 2rem;
+}
+
+ /* Leadership Section */
+ img.rounded-circle {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #ddd;
+  text-align: center;
+}
+footer a {
+  color: #00bcd4;
+  text-decoration: none;
+  text-align: center;
+}
+footer a:hover {
+  text-decoration: underline;
+  text-align: center;
+}

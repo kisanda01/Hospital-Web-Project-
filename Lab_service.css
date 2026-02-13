@@ -1,0 +1,92 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #007bff;
+  }
+  .navbar-brand, .nav-link {
+    color: white !important;
+  }
+  .navbar-brand:hover, .nav-link:hover {
+    color: #f0f8ff !important;
+  }
+
+   /* Search Bar Styles */
+   #form {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Hero Section */
+  .laboratory-hero {
+    background-image: url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .laboratory-hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  /* Cards Section */
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 1rem;
+  }
+  
+  .card img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  
+  .card-body {
+    text-align: center;
+    padding: 1.5rem;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #ddd;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #00bcd4;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  

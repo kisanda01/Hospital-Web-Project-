@@ -1,0 +1,104 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Form Styling */
+  form {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+  }
+  
+  form button {
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+  }
+  
+  .badge {
+    font-size: 0.9rem;
+  }
+  
+  .badge.bg-success {
+    background-color: #28a745 !important;
+  }
+  
+  .badge.bg-secondary {
+    background-color: #6c757d !important;
+  }
+/* General Navbar Styles */
+.navbar {
+    background-color: #f8f9fa; /* Light background */
+    padding: 0.8rem 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0056b3;
+  }
+  
+  .navbar-nav .nav-link {
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    color: #343a40;
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: #0056b3;
+  }
+  
+  /* Search Bar Styles */
+  #form {
+    display: flex;
+    align-items: center;
+  }
+  
+  #query {
+    width: 200px;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+  
+  #query:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.5);
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #0056b3;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #004085;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    #query {
+      width: 150px;
+    }
+  }
+    
